@@ -1,0 +1,26 @@
+.form, .field{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form input[type="text"], .form select{
+    padding: 1rem;
+    background-color: transparent;
+    border: .3rem solid #000;
+    font-size: 1.8rem;
+    font-weight: 400;
+    border-radius: 1rem;
+}
+
+.submit{
+    background-color: #0078af;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+}
